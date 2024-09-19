@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE students SYSTEM "student.dtd">
+<?xml-stylesheet type="text/css" href="style.css"?>
 <students>
   <student>
     <firstName>Gordon</firstName>
@@ -15,8 +16,8 @@
     <minor>English</minor>
     <enrollmentStatus>full-time</enrollmentStatus>
     <advisor>Andy Summers</advisor>
-    <initialEnrollment>1969-08-25</initialEnrollment>
-    <graduationDate>1973-05-01</graduationDate>
+    <initialEnrollment>08-25-1969</initialEnrollment>
+    <graduationDate>05-01-1973</graduationDate>
   </student>
 
   <student>
@@ -32,8 +33,8 @@
     <minor>Music</minor>
     <enrollmentStatus>full-time</enrollmentStatus>
     <advisor>Chris Cornell</advisor>
-    <initialEnrollment>1978-08-25</initialEnrollment>
-    <graduationDate>1982-05-01</graduationDate>
+    <initialEnrollment>08-25-1978</initialEnrollment>
+    <graduationDate>01-05-1982</graduationDate>
   </student>
 
   <student>
@@ -50,8 +51,8 @@
     <minor>Criminal Justice</minor>
     <enrollmentStatus>part-time</enrollmentStatus>
     <advisor>Axl Rose</advisor>
-    <initialEnrollment>1983-08-25</initialEnrollment>
-    <graduationDate>1987-05-01</graduationDate>
+    <initialEnrollment>08-25-1983</initialEnrollment>
+    <graduationDate>05-01-1987</graduationDate>
   </student>
 
   <student>
@@ -67,7 +68,24 @@
     <minor>Law</minor>
     <enrollmentStatus>full-time</enrollmentStatus>
     <advisor>Jenny Lee Lindberg</advisor>
-    <initialEnrollment>1998-08-25</initialEnrollment>
-    <graduationDate>2002-05-01</graduationDate>
+    <initialEnrollment>08-25-1998</initialEnrollment>
+    <graduationDate>05-01-2002</graduationDate>
+  </student>
+
+  <student>
+    <firstName>Mike</firstName>
+    <middleName/>
+    <lastName>Inez</lastName>
+    <studentID>7645726</studentID>
+    <email>mike@aic.com</email>
+    <phone>213.444.3323</phone>
+    <status>second year</status>
+    <GPA>4.0</GPA>
+    <major>Business Management</major>
+    <minor> Math</minor>
+    <enrollmentStatus>full-time</enrollmentStatus>
+    <advisor>Jerry Cantrell</advisor>
+    <initialEnrollment>08-25-1984</initialEnrollment>
+    <graduationDate>05-01-1988</graduationDate>
   </student>
 </students>

@@ -1,17 +1,50 @@
+<!-- Defines an element that must contain one or more "student" elements -->
 <!ELEMENT students (student+)>
+
+<!-- Defines the "student" element, which contains the following elements in order:  -->
 <!ELEMENT student (firstName, middleName?, lastName, preferredName?, studentID, email, phone, status, GPA, major, minor?, enrollmentStatus, advisor, initialEnrollment, graduationDate)>
+
+<!-- Defines the "firstName" element, which represents the students first name  -->
 <!ELEMENT firstName (#PCDATA)>
+
+<!-- Defines the "middleName" element, which represents the students middle in if there is one-->
 <!ELEMENT middleName (#PCDATA)>
+
+<!-- Defines the "lastName" element, which represents the students last name -->
 <!ELEMENT lastName (#PCDATA)>
+
+<!-- Defines the "preferredName" element, which represents the name perfered given by the student -->
 <!ELEMENT preferredName (#PCDATA)>
+
+<!-- Defines the "studentID" element, which represents the students ID number -->
 <!ELEMENT studentID (#PCDATA)>
+
+<!-- Defines the "email" element, which represents the students email address -->
 <!ELEMENT email (#PCDATA)>
+
+<!-- Defines the "phone" element, which represents the students telephone number -->
 <!ELEMENT phone (#PCDATA)>
+
+<!-- Defines the "status" element, referring to academic year-->
 <!ELEMENT status (#PCDATA)>
+
+<!-- Defines the "GPA" element, representing the student's Grade Point Average -->
 <!ELEMENT GPA (#PCDATA)>
+
+<!-- Defines the "major" element, representing the student's major -->
 <!ELEMENT major (#PCDATA)>
+
+<!-- Defines the "minor" element, representing the student's minor  -->
 <!ELEMENT minor (#PCDATA)>
+
+<!-- Defines the "enrollmentStatus" element, representing whether the student currently enrollment status -->
 <!ELEMENT enrollmentStatus (#PCDATA)>
+
+<!-- Defines the "advisor" element, representing the student's academic advisor -->
 <!ELEMENT advisor (#PCDATA)>
+
+<!-- Defines the "initialEnrollment" element, representing the date when the student first enrolled -->
 <!ELEMENT initialEnrollment (#PCDATA)>
+
+<!-- Defines the "graduationDate" element, representing the student's graduation date -->
 <!ELEMENT graduationDate (#PCDATA)>

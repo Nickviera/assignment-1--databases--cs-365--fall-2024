@@ -14,8 +14,8 @@
       "minor": "English",
       "enrollmentStatus": "full-time",
       "advisor": "Andy Summers",
-      "initialEnrollment": "1969-08-25",
-      "graduationDate": "1973-05-01"
+      "initialEnrollment": "08-25-1969",
+      "graduationDate": "05-01-1973"
     },
     {
       "firstName": "Kim",
@@ -30,8 +30,8 @@
       "minor": "Music",
       "enrollmentStatus": "full-time",
       "advisor": "Chris Cornell",
-      "initialEnrollment": "1978-08-25",
-      "graduationDate": "1982-05-01"
+      "initialEnrollment": "08-25-1978",
+      "graduationDate": "05-01-1982"
     },
     {
       "firstName": "Saul",
@@ -47,8 +47,8 @@
       "minor": "Criminal Justice",
       "enrollmentStatus": "part-time",
       "advisor": "Axl Rose",
-      "initialEnrollment": "1983-08-25",
-      "graduationDate": "1987-05-01"
+      "initialEnrollment": "08-25-1983",
+      "graduationDate": "05-01-1987"
     },
     {
       "firstName": "Emily",
@@ -63,8 +63,8 @@
       "minor": "Law",
       "enrollmentStatus": "full-time",
       "advisor": "Jenny Lee Lindberg",
-      "initialEnrollment": "1998-08-25",
-      "graduationDate": "2002-05-01"
+      "initialEnrollment": "08-25-1998",
+      "graduationDate": "05-01-2002"
     },
     {
       "firstName": "Mike",
@@ -79,8 +79,8 @@
       "minor": "Math",
       "enrollmentStatus": "full-time",
       "advisor": "Jerry Cantrell",
-      "initialEnrollment": "1984-08-25",
-      "graduationDate": "1988-05-01"
+      "initialEnrollment": "08-25-1984",
+      "graduationDate": "05-01-1988"
     }
   ]
 }

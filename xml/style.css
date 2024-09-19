@@ -1,20 +1,173 @@
-/* Styling for the student XML data */
+/* Styling for the student XML */
 student {
   display: block;
-  margin: 10px;
-  padding: 10px;
+  margin: 20px;
+  padding: 15px;
   border: 1px solid #ddd;
   background-color: #f9f9f9;
 }
 
-student::before {
-  content: "Student Information";
-  font-weight: bold;
+/* Label and display for the first name */
+student firstName {
   display: block;
+  margin-bottom: 5px;
 }
 
-student[firstName]::before {
-  content: attr(firstName) " " attr(lastName);
+student firstName::before {
+  content: "First Name: ";
   font-weight: bold;
+}
+
+/* Label and display for the middle name */
+student middleName {
   display: block;
+  margin-bottom: 5px;
+}
+
+student middleName::before {
+  content: "Middle Name: ";
+  font-weight: bold;
+}
+
+/* Label and display for the last name */
+student lastName {
+  display: block;
+  margin-bottom: 5px;
+}
+
+student lastName::before {
+  content: "Last Name: ";
+  font-weight: bold;
+}
+
+/* Label and display for the preferred name */
+student preferredName {
+  display: block;
+  margin-bottom: 5px;
+}
+
+student preferredName::before {
+  content: "Preferred Name: ";
+  font-weight: bold;
+}
+
+/* Label and display for the studnet ID */
+student studentID {
+  display: block;
+  margin-bottom: 5px;
+}
+
+student studentID::before {
+  content: "Student ID: ";
+  font-weight: bold;
+}
+
+/* Label and display for the email */
+student email {
+  display: block;
+  margin-bottom: 5px;
+}
+
+student email::before {
+  content: "Email: ";
+  font-weight: bold;
+}
+
+/* Label and display for the phone number */
+student phone {
+  display: block;
+  margin-bottom: 5px;
+}
+
+student phone::before {
+  content: "Phone Number: ";
+  font-weight: bold;
+}
+
+/* Label and display for the year status (academic year) */
+student status {
+  display: block;
+  margin-bottom: 5px;
+}
+
+student status::before {
+  content: "Academic Year: ";
+  font-weight: bold;
+}
+
+/* Label and display for the GPA */
+student GPA {
+  display: block;
+  margin-bottom: 5px;
+}
+
+student GPA::before {
+  content: "GPA: ";
+  font-weight: bold;
+}
+
+/* Label and display for the major */
+student major {
+  display: block;
+  margin-bottom: 5px;
+}
+
+student major::before {
+  content: "Major: ";
+  font-weight: bold;
+}
+
+/* Label and display for the minor */
+student minor {
+  display: block;
+  margin-bottom: 5px;
+}
+
+student minor::before {
+  content: "Minor: ";
+  font-weight: bold;
+}
+
+/* Label and display for the enrollment status */
+student enrollmentStatus {
+  display: block;
+  margin-bottom: 5px;
+}
+
+student enrollmentStatus::before {
+  content: "Enrollment Status: ";
+  font-weight: bold;
+}
+
+/* Label and display for the advisor */
+student advisor {
+  display: block;
+  margin-bottom: 5px;
+}
+
+student advisor::before {
+  content: "Advisor: ";
+  font-weight: bold;
+}
+
+/* Label and display for initial enrollment date */
+student initialEnrollment {
+  display: block;
+  margin-bottom: 5px;
+}
+
+student initialEnrollment::before {
+  content: "Initial Enrollment: ";
+  font-weight: bold;
+}
+
+/* Label and display for graduation date */
+student graduationDate {
+  display: block;
+  margin-bottom: 5px;
+}
+
+student graduationDate::before {
+  content: "Graduation Date: ";
+  font-weight: bold;
 }
