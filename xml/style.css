@@ -1,0 +1,20 @@
+/* Styling for the student XML data */
+student {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+student::before {
+  content: "Student Information";
+  font-weight: bold;
+  display: block;
+}
+
+student[firstName]::before {
+  content: attr(firstName) " " attr(lastName);
+  font-weight: bold;
+  display: block;
+}

@@ -1,0 +1,17 @@
+<!ELEMENT students (student+)>
+<!ELEMENT student (firstName, middleName?, lastName, preferredName?, studentID, email, phone, status, GPA, major, minor?, enrollmentStatus, advisor, initialEnrollment, graduationDate)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT middleName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT preferredName (#PCDATA)>
+<!ELEMENT studentID (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT GPA (#PCDATA)>
+<!ELEMENT major (#PCDATA)>
+<!ELEMENT minor (#PCDATA)>
+<!ELEMENT enrollmentStatus (#PCDATA)>
+<!ELEMENT advisor (#PCDATA)>
+<!ELEMENT initialEnrollment (#PCDATA)>
+<!ELEMENT graduationDate (#PCDATA)>
